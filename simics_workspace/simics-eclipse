@@ -1,0 +1,4 @@
+#!/bin/sh
+# this file will be overwritten by the workspace setup script
+SIMICS_WORKSPACE="/home/lishuoke/GEMS/simics_workspace"; export SIMICS_WORKSPACE
+exec "/home/lishuoke/simics/simics-3.0.31/bin/simics-eclipse" -data "/home/lishuoke/GEMS/simics_workspace" ${1+"$@"}
