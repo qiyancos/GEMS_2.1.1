@@ -28,8 +28,8 @@
 
 # Executables
 *.exe
-*.out
 *.app
 
 *generated*
-simics_workspace/
+/simics_workspace/
+/checkpoints

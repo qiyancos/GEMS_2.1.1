@@ -54,7 +54,7 @@ endif
 endif
 
  # add -m64 and library paths if needed
-CC_VERSION=4.8.5
+CC_VERSION=5.4.0
 HOST_TYPE = $(shell $(CALC_HOST))
 ifeq ($(HOST_TYPE),x86-linux)
   MODULE_LDFLAGS += -m32
